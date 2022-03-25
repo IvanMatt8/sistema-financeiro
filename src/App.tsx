@@ -6,7 +6,13 @@ const App = () => {
       <C.Header>
         <C.HeaderText>Sistema Financeiro Pessoal</C.HeaderText>
       </C.Header>
-      <C.Body>...</C.Body>
+      <C.Body>
+        {/* {Area de informações} */}
+
+        {/* {Area de inserção} */}
+
+        {/* {tabela de itens} */}
+      </C.Body>
     </C.Container>
   );
 };
