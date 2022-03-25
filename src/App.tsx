@@ -14,6 +14,7 @@ const App = () => {
 
   useEffect(() => {
     setFilteredList(filterListByMonth(list, currentMonth));
+    console.log(filteredList);
   }, [list, currentMonth]);
 
   return (
@@ -26,7 +27,7 @@ const App = () => {
 
         {/* {Area de inserção} */}
 
-        <TableArea />
+        <TableArea list={filteredList} />
       </C.Body>
     </C.Container>
   );
